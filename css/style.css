@@ -1,0 +1,33 @@
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.meals-overlay {
+  transition: top 1s;
+  /* top:100%; */
+}
+.card-hover:hover {
+.meals-overlay {
+  top: 0 !important;
+}
+}
+.pointer-cursor
+{
+  cursor:pointer;
+
+}
+.loading-screen{
+  z-index: 999;
+  display: flex;
+  color: white;
+}
+body{
+  overflow: hidden;
+}
+.inner-loading-screen{
+  position: absolute;
+  z-index: 22;
+  display: flex;
+}
+
