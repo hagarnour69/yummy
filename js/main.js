@@ -356,7 +356,7 @@ async function GetMealsByIngrediants(ingrediant) {
 //^====contact us=====^//
 contacts.addEventListener("click", () => {
   closeNav();
-  document.querySelector("#home").innerHTML=" "
+  document.querySelector(".meals-row").innerHTML = " ";
   document.querySelector("#home .row ").classList.add("d-none");
   document.querySelector("#Details").classList.add("d-none");
   document.querySelector("#ContactUs").classList.remove("d-none");
